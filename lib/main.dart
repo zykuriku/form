@@ -141,7 +141,7 @@ class _FormPageState extends State<FormPage> {
       ),
       items: genderOptions
           .map((gender) => DropdownMenuItem(
-      alignment: AlignmentDirectional.center,
+      alignment: AlignmentDirectional.centerStart,
       value: gender,
       child: Text(gender),
       ))
@@ -166,7 +166,7 @@ class _FormPageState extends State<FormPage> {
                 ),
                 items: countries
                     .map((country) => DropdownMenuItem(
-                  alignment: AlignmentDirectional.center,
+                  alignment: AlignmentDirectional.centerStart,
                   value: country,
                   child: Text(country),
                 ))
